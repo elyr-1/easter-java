@@ -1,4 +1,3 @@
-
 /*
 Easter Sunday is the first Sunday after the full moon of spring.
 To compute the date, you can use this algorithm that is invented by 
