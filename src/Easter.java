@@ -22,7 +22,7 @@ user for a year and prints out the month and the day of Easter Sunday.
 */
 
 import java.util.Scanner;
-//import java.time.Month;
+import java.time.Month;
 
 public class Easter {
 	public static void main(String[] args) {
@@ -33,9 +33,7 @@ public class Easter {
 			g =  (8 * b + 13) / 25, h = (19 * a + b - d - g + 15) % 30,
 			j = c / 4, k = c % 4, m = (a + 11 * h) / 319, r = (2 * e +2 * j - k - h + m +32) % 7,
 			n = (h - m + r + 90) / 25, p = (h - m + r + n + 19) % 32;
-		String month = n == 3 ? "March" : "April";
-		//System.out.println("The Easter Sunday in " + y + " is " + Month.of(n) + " " + p);
-		System.out.println("The Easter Sunday in " + y + " is " + month + " " + p);
+		System.out.println("The Easter Sunday in " + y + " is " + Month.of(n) + " " + p);
                 s.close();
 	}
 }
