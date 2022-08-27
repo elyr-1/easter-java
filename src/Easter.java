@@ -1,5 +1,3 @@
-//Manlagnit, Ely Rick
-//Exercise 5
 
 /*
 Easter Sunday is the first Sunday after the full moon of spring.
